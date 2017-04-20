@@ -14,7 +14,7 @@ import two_layer_fc
 flags = tf.flags
 FLAGS = flags.FLAGS
 flags.DEFINE_integer('hidden1', 120, 'Number of units in hidden layer 1.')
-flags.DEFINE_string('train_dir', 'tf_logs',
+flags.DEFINE_string('train_dir', '/usr/eli/dev/logdir',
   'Directory to put the training data.')
 flags.DEFINE_float('reg_constant', 0.1, 'Regularization constant.')
 
